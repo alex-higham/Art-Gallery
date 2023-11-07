@@ -1,0 +1,21 @@
+/* Navigation Component Specific Styles */
+.navigation {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #333; /* Set the background color */
+    padding: 10px; /* Add padding for spacing */
+  }
+  
+  .nav-button {
+    background-color: #555; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px; /* Add padding for button size */
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  .nav-button:hover {
+    background-color: #777; /* Button background color on hover */
+  }

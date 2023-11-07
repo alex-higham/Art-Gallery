@@ -1,0 +1,14 @@
+.instagram-button {
+    display: flex;
+    align-items: center;
+  }
+  
+  .instagram-button img {
+    width: 30px; /* Adjust the width to your preferred size */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    margin-right: 10px; /* Add some spacing between the icon and text */
+  }
+
+  .about-header {
+    text-align: center;
+  }

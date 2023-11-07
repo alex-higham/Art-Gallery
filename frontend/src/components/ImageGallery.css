@@ -1,0 +1,98 @@
+/* Image Gallery Component Specific Styles */
+.gallery-header {
+    text-align: center;
+    color: aliceblue;
+  }
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Display exactly 3 images per row */
+    gap: 10px; /* Adjust the gap between grid items */
+    max-width: 100%; /* Constrain the gallery width to fit the screen */
+    margin: 0 auto; /* Center the gallery horizontally */
+    padding: 20px; /* Add padding for spacing */
+    padding-top: 5%;
+    box-sizing: border-box;
+  }
+  
+  .gallery-image {
+    position: relative;
+    cursor: pointer;
+    object-fit: cover;
+    border: 2px solid transparent; /* Add a transparent border for spacing */
+  }
+  
+  .gallery-image img {
+    max-width: 100%;
+    width: 600px; /* Set a fixed width for each image */
+    height: 600px; /* Set a fixed height for each image */
+  }
+  
+  .image-text {
+    text-align: center;
+    margin-top: 10px;
+    color: aliceblue;
+  }
+  
+  .image-description {
+    font-size: 14px;
+    margin-top: 5px;
+    font-style: italic;
+    color: #ffffff;
+  }
+  /* Modal Styles */
+  .modal {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    display: block;
+    max-width: 90%;
+    max-height: 90vh; /* Limit the modal height to 90% of the viewport height */
+  }
+  
+  .modal-content img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  
+  .close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  /* Navigation Buttons */
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
