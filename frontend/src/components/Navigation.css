@@ -19,3 +19,10 @@
   .nav-button:hover {
     background-color: #777; /* Button background color on hover */
   }
+
+  .nav-text {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 0; /* Adjust margin as needed */
+  }

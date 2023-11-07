@@ -35,7 +35,8 @@ const ImageGallery = () => {
     <div>
       {/* Header */}
       <h1 className="gallery-header">Welcome to Neuartify's art gallery!</h1>
-      
+      <p className="gallery-header">Click on an image to enter modal mode.  </p>
+      <p className="gallery-header">Updating images requires manually updating code.  For now...  </p>
       <div className="gallery">
         {images.map((image, index) => (
           <div key={image.id} onClick={() => openModal(index)} className="gallery-image">

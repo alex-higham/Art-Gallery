@@ -14,6 +14,7 @@ const Navigation = () => {
       <Link to="/login" className="nav-button">
         Login
       </Link>
+      <p className="nav-text"> Click on the navigation buttons to go to a different page</p>
     </div>
   );
 };
